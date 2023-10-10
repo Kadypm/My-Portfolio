@@ -1,0 +1,40 @@
+:root{
+    --primary-color: #D8E2DC;
+    --button-color: #80AFBA;
+    --heading-font: 'Calistoga', cursive;
+    --body-font: 'Andika', sans-serif;
+}
+
+.hero p{
+    color: black;
+    font-family: var(--heading-font);
+    font-size: 70px;
+}
+
+.hero h1{
+    font-family: var(--body-font);
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.hero{
+background-color: var(--primary-color);
+text-align: center;
+font-weight: bold;
+line-height: px;
+padding: 100px 30px;
+}
+
+.btn-branding {
+    background-color: var(--button-color);
+    border-radius: 4px;
+    color: white;
+    font: var(--secondary-font);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+}
