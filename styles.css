@@ -88,3 +88,10 @@ padding: 100px 30px;
 .card-body {
 background-color: var(--cards-color);
 }
+
+.warning {
+    font-family: var(--heading-font);
+    font-size: 50px;
+    text-align: center;
+    color: #E1535C;
+}
