@@ -1,7 +1,8 @@
 :root{
     --primary-color: #D8E2DC;
-    --secondary-color: #EB8078;
+    --secondary-color: #FEC5BB;
     --third-color: #ABD5D2;
+    --cards-color: f8edeb;
     --button-color: #80AFBA;
     --heading-font: 'Calistoga', cursive;
     --body-font: 'Andika', sans-serif;
@@ -53,11 +54,24 @@ padding: 100px 30px;
 .headline h2 {
     font-family: var(--body-font);
     font-size: 20px;
-
+    line-height: normal;
+    padding-bottom: 30px;
 }
-.about-me{
+.projects-preview{
     background-color: var(--secondary-color);
-   padding: 30px;
+    padding: 30px;
+}
+.btn-aboutme {
+    background-color: var(--button-color);
+    border-radius: 4px;
+    color: white;
+    font: var(--secondary-font);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
 }
 .btn-knowmore {
     background-color: var(--button-color);
@@ -70,4 +84,7 @@ padding: 100px 30px;
     font-size: 18px;
     text-decoration: none;
     font-weight: normal;
+}
+.card-body {
+background-color: var(--cards-color);
 }
