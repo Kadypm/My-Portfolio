@@ -1,5 +1,7 @@
 :root{
     --primary-color: #D8E2DC;
+    --secondary-color: #EB8078;
+    --third-color: #ABD5D2;
     --button-color: #80AFBA;
     --heading-font: 'Calistoga', cursive;
     --body-font: 'Andika', sans-serif;
@@ -27,6 +29,37 @@ padding: 100px 30px;
 }
 
 .btn-branding {
+    background-color: var(--button-color);
+    border-radius: 4px;
+    color: white;
+    font: var(--secondary-font);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.headline{
+    background-color: var(--secondary-color);
+    padding: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+.headline h1 {
+    font-family: var(--heading-font);
+    font-size: 30px;
+}
+.headline h2 {
+    font-family: var(--body-font);
+    font-size: 20px;
+
+}
+.about-me{
+    background-color: var(--secondary-color);
+   padding: 30px;
+}
+.btn-knowmore {
     background-color: var(--button-color);
     border-radius: 4px;
     color: white;
