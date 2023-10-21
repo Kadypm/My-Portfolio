@@ -9,7 +9,6 @@
     --heading-font: 'Calistoga', cursive;
     --body-font: 'Andika', sans-serif;
 }
-
 .navbar {
     font-family: var(--secondary-font);
 }
@@ -131,34 +130,35 @@ background-color: var(--cards-color);
     fill: #E27396;
 }
 
-@media(max-widht: 900px) {
-    .about-content h1 {
+@media (max-width: 900px) {
+    .content h1 {
         font-size: 44px;
         line-height: 56px;
     }
 }
-.about-section{
-margin: auto;
-background-image:
-  url("src/fondo-cristal.jpg");
 
-padding: 100px 30px;
+.content-container {
+    margin:auto;
+    background-image: url("src/fondo-cristal.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
 }
-.about-section h1, h2{
+
+.content{
+    margin: 30px;
+}
+.content h1, h2{
     font-family: var(--heading-font);
     padding: 10px;
     text-align: center;
 }
-.about-section h1{
+
+.content h1{
     font-size: 64px;
 }
-.about-section p{
+.content p{
     font-family: var(--secondary-font);
     padding: 20px;
-}
-
-.about-content{
-    margin: 30px;
 }
 .img-fluid{
 border-radius: 40px;
