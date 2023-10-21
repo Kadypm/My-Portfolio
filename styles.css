@@ -1,12 +1,24 @@
 :root{
-    --primary-color: #D8E2DC;
-    --secondary-color: #FEC5BB;
+    --primary-color: #b3dee2;
+    --secondary-color: #E27396;
     --third-color: #ABD5D2;
-    --cards-color: f8edeb;
-    --button-color: #80AFBA;
+    --about-color: ;
+    --cards-color: #fffff;
+    --button-color: #EAF2D7;
+    --second-button-color: #EA9AB2;
     --heading-font: 'Calistoga', cursive;
     --body-font: 'Andika', sans-serif;
 }
+.navbar {
+    font-family: var(--secondary-font);
+}
+.hero{
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    text-align: center;
+    font-weight: bold;
+    line-height: px;
+    padding: 100px 30px;
+    }
 
 .hero p{
     color: black;
@@ -15,37 +27,31 @@
 }
 
 .hero h1{
+    color: black;
     font-family: var(--body-font);
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.hero{
-background-color: var(--primary-color);
-text-align: center;
-font-weight: bold;
-line-height: px;
-padding: 100px 30px;
-}
-
 .btn-branding {
-    background-color: var(--button-color);
+    background-color: var(--second-button-color);
     border-radius: 4px;
-    color: white;
+    color: black;
     font: var(--secondary-font);
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
     font-size: 18px;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
 }
 .headline{
-    background-color: var(--secondary-color);
+    background: linear-gradient(360deg, rgba(254,240,239,1) 18%, rgba(226,115,150,1) 100%);
     padding: 30px;
     text-align: center;
     font-weight: normal;
+    position: relative;
 }
 .headline h1 {
     font-family: var(--heading-font);
@@ -56,34 +62,39 @@ padding: 100px 30px;
     font-size: 20px;
     line-height: normal;
     padding-bottom: 30px;
+
 }
 .projects-preview{
-    background-color: var(--secondary-color);
     padding: 30px;
 }
 .btn-aboutme {
     background-color: var(--button-color);
     border-radius: 4px;
-    color: white;
+    color: black;
     font: var(--secondary-font);
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
     font-size: 18px;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
 }
 .btn-knowmore {
-    background-color: var(--button-color);
+    background-color: var(--primary-color);
     border-radius: 4px;
-    color: white;
+    color: black;
     font: var(--secondary-font);
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
     font-size: 18px;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
+}
+
+.card{
+    border: none;
+    margin: 0 auto;
 }
 .card-body {
 background-color: var(--cards-color);
@@ -94,4 +105,68 @@ background-color: var(--cards-color);
     font-size: 50px;
     text-align: center;
     color: #E1535C;
+}
+.separator{
+    position: relative;
+}
+.custom-shape-divider-bottom-1697141319 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1697141319 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 134px;
+}
+
+.custom-shape-divider-bottom-1697141319 .shape-fill {
+    fill: #E27396;
+}
+
+.about-section{
+margin: auto;
+background-image:
+  url("src/fondo-cristal.jpg");
+
+padding: 100px 30px;
+}
+.about-section h1, h2{
+    font-family: var(--heading-font);
+    padding: 10px;
+    text-align: center;
+}
+.about-section h1{
+    font-size: 64px;
+}
+.about-section p{
+    font-family: var(--secondary-font);
+    padding: 20px;
+}
+
+.about-content{
+    margin: 30px;
+}
+.btn-projects{
+    background-color: var(--second-button-color);
+    border-radius: 4px;
+    color: black;
+    font: var(--secondary-font);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.row {
+    padding: 30px;
 }
