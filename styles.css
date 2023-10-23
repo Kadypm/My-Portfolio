@@ -140,6 +140,7 @@ background-color: var(--cards-color);
 
 .content-container {
     margin:auto;
+    padding-top: 30px;
     background: linear-gradient(109.6deg, rgb(151, 213, 255, 0.7) 11.2%, rgb(255, 155, 185,0.5) 91.1%);
 }
     .content {
@@ -180,3 +181,16 @@ border-radius: 40px;
 }
 .row {
     padding: 30px}
+.contact-info{
+    text-align: center;
+}
+    #emailLink, #linkedInLink {
+        text-decoration: none;
+        color: #28364A;
+        font-family: var(--body-font);
+      }
+      
+#emailLink:hover, #linkedInLink:hover {
+        text-decoration: underline;
+        color: #B33A89;
+      }
