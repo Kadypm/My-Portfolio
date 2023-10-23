@@ -78,6 +78,8 @@
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); /* Have added a shadow */
+    transition: all 0.3s ease; /* This makes the hover transition smooth */
 }
 .btn-knowmore {
     background-color: var(--primary-color);
@@ -90,6 +92,8 @@
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); /* Have added a shadow */
+    transition: all 0.3s ease; /* This makes the hover transition smooth */
 }
 
 .card{
@@ -171,7 +175,8 @@ border-radius: 40px;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); /* Have added a shadow */
+    transition: all 0.3s ease; /* This makes the hover transition smooth */
 }
-
 .row {
     padding: 30px}
