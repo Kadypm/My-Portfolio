@@ -1,6 +1,6 @@
 :root{
     --primary-color: #b3dee2;
-    --secondary-color: #E27396;
+    --secondary-color: #AD7B9D;
     --third-color: #ABD5D2;
     --about-color: ;
     --cards-color: #fffff;
@@ -50,11 +50,11 @@
     transition: all 0.3s ease; 
 }
 .headline{
-    background: linear-gradient(360deg, rgba(254,240,239,1) 18%, rgba(226,115,150,1) 100%);
+    background: linear-gradient(360deg, rgba(254,240,239,1) 18%, #e2D0DC 100%);
     padding: 30px;
     text-align: center;
     font-weight: normal;
-    position: relative;
+    position: relative; 
 }
 .headline h1 {
     font-family: var(--heading-font);
@@ -168,6 +168,7 @@ background-color: var(--cards-color);
 .img-fluid{
 border-radius: 40px;
 box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+
 }
 
 .btn-projects{
@@ -189,6 +190,15 @@ box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 .contact-info{
     text-align: center;
 }
+.contactIcon{
+width: 70px;
+padding: 10px;
+justify-content: center;
+}
+.contactIcon svg{
+    color: var(--secondary-color);
+}
+
 #emailLink, #linkedInLink, #gitHubLink {
         text-decoration: none;
         color: #28364A;
