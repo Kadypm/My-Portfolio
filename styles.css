@@ -84,7 +84,7 @@
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); /* Have added a shadow */
     transition: all 0.3s ease; /* This makes the hover transition smooth */
 }
-.btn-knowmore {
+.btn-more {
     background-color: var(--primary-color);
     border-radius: 4px;
     color: black;
@@ -98,7 +98,12 @@
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); /* Have added a shadow */
     transition: all 0.3s ease; /* This makes the hover transition smooth */
 }
-
+.btn-aboutme:hover, 
+.btn-branding:hover, 
+.btn-more:hover, 
+.btn-projects:hover{
+    background-color: var(--secondary-color);
+}
 .card{
     border: none;
     margin: 0 auto;
@@ -108,31 +113,15 @@
 background-color: var(--cards-color);
 }
 .icon{
-    width: 20px;
+    width: 30px;
     align-items: center;
 }
-.separator{
-    position: relative;
-}
-.custom-shape-divider-bottom-1697141319 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1697141319 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 134px;
-}
-
-.custom-shape-divider-bottom-1697141319 .shape-fill {
-    fill: #E27396;
+.socialLinks {
+    border-radius: 30px;
+    margin: 30px;
+    background-color: rgb(179, 222, 226, 0.4);
+    padding: 20px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 900px) {
@@ -140,6 +129,7 @@ background-color: var(--cards-color);
         font-size: 44px;
         line-height: 56px;
     }
+
 }
 
 .content-container {
@@ -167,8 +157,7 @@ background-color: var(--cards-color);
 }
 .img-fluid{
 border-radius: 40px;
-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
-
+box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); 
 }
 
 .btn-projects{
@@ -187,6 +176,7 @@ box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .row {
     padding: 30px}
+
 .contact-info{
     text-align: center;
 }
@@ -194,9 +184,6 @@ box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 width: 70px;
 padding: 10px;
 justify-content: center;
-}
-.contactIcon svg{
-    color: var(--secondary-color);
 }
 
 #emailLink, #linkedInLink, #gitHubLink {
