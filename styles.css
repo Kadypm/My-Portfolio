@@ -2,39 +2,60 @@
     --primary-color: #b3dee2;
     --secondary-color: #AD7B9D;
     --third-color: #ABD5D2;
-    --about-color: ;
     --cards-color: #fffff;
     --button-color: #EAF2D7;
     --second-button-color: #EA9AB2;
     --heading-font: 'Calistoga', cursive;
     --body-font: 'Andika', sans-serif;
 }
+
 .navbar {
-    font-family: var(--secondary-font);
+    font-family: var(--body-font);
     padding: 10px;
 }
-.hero{
-    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+.content-container {
+    margin:auto;
+    padding-top: 30px;
     text-align: center;
     font-weight: bold;
     line-height: px;
     padding: 100px 30px;
+    background: linear-gradient(109.6deg, rgb(151, 213, 255, 0.7) 11.2%, rgb(255, 155, 185,0.5) 91.1%);
+}
+.content {
+    margin: 30px; 
+}
+.content h1, h2, h3{
+    font-family: var(--heading-font);
+    padding: 10px;
+    text-align: center;
+}
+.content h1{
+    font-size: 64px;
+}
+.content p {
+    font-family: var(--body-font);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+.hero{
+    margin: 0 auto;
+    padding: 100px 30px;
     }
 
+.hero h1{
+        color: black;
+        font-family: var(--body-font);
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 .hero p{
     color: black;
     font-family: var(--heading-font);
     font-size: 70px;
 }
-
-.hero h1{
-    color: black;
-    font-family: var(--body-font);
-    font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
 .btn-branding {
     background-color: var(--second-button-color);
     border-radius: 4px;
@@ -54,18 +75,18 @@
     padding: 30px;
     text-align: center;
     font-weight: normal;
-    position: relative; 
+    position: relative;
+    border-radius: 20px; 
 }
 .headline h1 {
     font-family: var(--heading-font);
-    font-size: 30px;
+    font-size: 40px;
 }
 .headline h2 {
     font-family: var(--body-font);
     font-size: 20px;
     line-height: normal;
     padding-bottom: 30px;
-
 }
 .projects-preview{
     padding: 30px;
@@ -116,45 +137,14 @@ background-color: var(--cards-color);
     width: 30px;
     align-items: center;
 }
-.socialLinks {
-    border-radius: 30px;
-    margin: 30px;
-    background-color: rgb(179, 222, 226, 0.4);
-    padding: 20px;
-    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
-}
 
 @media (max-width: 900px) {
-    .content h1 {
+    .content h1{
         font-size: 44px;
-        line-height: 56px;
+        line-height: 60px;
     }
-
 }
 
-.content-container {
-    margin:auto;
-    padding-top: 30px;
-    background: linear-gradient(109.6deg, rgb(151, 213, 255, 0.7) 11.2%, rgb(255, 155, 185,0.5) 91.1%);
-}
-    .content {
-    margin: 30px;
-    
-}
-.content h1, h2, h3{
-    font-family: var(--heading-font);
-    padding: 10px;
-    text-align: center;
-}
-
-.content h1{
-    font-size: 64px;
-}
-.content p{
-    font-family: var(--secondary-font);
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
 .img-fluid{
 border-radius: 40px;
 box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25); 
@@ -180,15 +170,29 @@ box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 .contact-info{
     text-align: center;
 }
+
 .contactIcon{
-width: 70px;
-padding: 10px;
-justify-content: center;
+    width: 70px;
+    padding: 10px;
+    justify-content: center;
+}
+.socialLinks {   
+    margin: 30px;
+    padding: 20px;
+}
+.socialLinks h1{
+    font-family: var(--heading-font);
+}
+
+footer{
+    padding:30px;
+    font-family: var(--body-font);
+    font-weight: lighter;
 }
 
 #emailLink, #linkedInLink, #gitHubLink {
         text-decoration: none;
-        color: #28364A;
+        color: #6C117B;
         font-family: var(--body-font);
       }
       
