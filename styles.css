@@ -11,6 +11,7 @@
 
 .navbar {
     font-family: var(--body-font);
+    font-weight: bold;
     padding: 10px;
 }
 .content-container {
